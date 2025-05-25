@@ -144,7 +144,6 @@ Real estate price prediction is a critical challenge in the property market. Thi
 
 ## Repository Structure
 
-turquake/
 ├── proje.ipynb            
 ├── README.MD
 
