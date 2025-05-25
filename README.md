@@ -148,22 +148,6 @@ Real estate price prediction is a critical challenge in the property market. Thi
 
 **Live Notebook**: [Real Estate Price Prediction](https://www.kaggle.com/your-username/real-estate-price-prediction)
 
-## Technologies Used
-
-- **Python 3.8+**
-- **Pandas** - Data manipulation
-- **NumPy** - Numerical computing
-- **Scikit-learn** - Machine learning
-- **XGBoost** - Gradient boosting
-- **SHAP** - Model interpretability
-- **Matplotlib/Seaborn** - Visualization
-- **Jupyter Notebook** - Development environment
-
-## Installation & Usage
-
-```bash
-# Clone repository
-git clone https://github.com/habipozer/Akbank-BootCamp-Real-Estate-Sales-Prediction/
 
 # Run notebooks
 jupyter notebook
