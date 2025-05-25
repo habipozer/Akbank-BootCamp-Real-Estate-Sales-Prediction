@@ -149,4 +149,4 @@ Real estate price prediction is a critical challenge in the property market. Thi
 
 ## Kaggle Notebook
 
-**Live Notebook**: [Real Estate Price Prediction] https://www.kaggle.com/code/habipzer/notebooke8ce0a2fbb
+**Live Notebook**: [Real Estate Price Prediction] https://www.kaggle.com/code/habipzer/real-estate-sales-prediction
