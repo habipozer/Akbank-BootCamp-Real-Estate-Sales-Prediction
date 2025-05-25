@@ -11,7 +11,6 @@ Real estate price prediction is a critical challenge in the property market. Thi
 ## Dataset Information
 
 - **Source**: Real Estate Dataset
-- **Size**: >10MB / >10,000 data points
 - **Features**: 
   - Assessed Value (Log transformed)
   - Location (Town encoding)
@@ -69,23 +68,27 @@ Real estate price prediction is a critical challenge in the property market. Thi
 
 ### Hyperparameter Optimization
 
-- **Method**: Grid Search with Cross-Validation
+- **Method**: Randomized Search with Cross-Validation
 - **Parameters Tuned**: 
-  - n_estimators
-  - max_depth
-  - learning_rate
-  - subsample
-- **Validation**: 5-fold cross-validation
+  -  n_estimators       
+  -  max_depth     
+  -  learning_rate
+  -  subsample    
+  -  colsample_bytree
+  -  reg_alpha          
+  -  reg_lambda   
+  -  gamma              
+  -  min_child_weight
+- **Validation**: 3-fold cross-validation
 
 ## Model Performance
 
 ### Final Model Metrics
 
 - **Algorithm**: XGBoost Regressor
-- **R² Score**: [Your actual score]
-- **RMSE**: [Your actual RMSE]
-- **MAE**: [Your actual MAE]
-- **Cross-validation Score**: [Your CV score]
+- **R² Score**: 0.7133
+- **RMSE**: 0.4692
+- **MAE**: 0.2823
 
 ### Feature Importance (SHAP Analysis)
 
