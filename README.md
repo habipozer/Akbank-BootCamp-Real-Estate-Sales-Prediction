@@ -145,6 +145,7 @@ Real estate price prediction is a critical challenge in the property market. Thi
 ## Repository Structure
 
 ├── proje.ipynb
+|
 └── README.md
 
 ## Kaggle Notebook
